@@ -1,0 +1,10 @@
+@import '../../styles/global.scss';
+
+.header-wrapper {
+  background-color: $primary-main;
+  font-weight: bold;
+  font-size: $header-2;
+  color: $primary-white;
+  text-align: center;
+  padding: 10px;
+}
