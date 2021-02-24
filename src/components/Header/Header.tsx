@@ -1,11 +1,16 @@
+import HeaderBar from './HeaderBar'
+
+let message = 'Free shipping on orders over $40';
+let link = '/promo';
+
 interface IHeader {
-  primaryName: string;
+
 }
 
 export default function Header(props: IHeader) {
   return (
-    <div id="Header" className="header-wrapper" data-testid="Header">
-      { props.primaryName }
-    </div>
+    <header>
+      <HeaderBar message={ message } link={ link }/>
+    </header>
   )
 }
